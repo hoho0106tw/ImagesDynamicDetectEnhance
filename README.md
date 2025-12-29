@@ -1,0 +1,3 @@
+This version improves image detection speed while leveraging connected component analysis to segment moving regions and crop detected areas for easier visual inspection. Threshold-based criteria are applied to ensure that signal markings or scale indicators are preserved and not misclassified as color images.
+
+By integrating motion detection, strong color filtering, and flexible threshold settings, this approach significantly enhances the accuracy of detecting dynamic color regions in ultrasound imaging. The adjustable parameters allow greater adaptability to different imaging conditions and improve robustness against false color detections.
